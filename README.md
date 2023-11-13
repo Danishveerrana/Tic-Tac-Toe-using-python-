@@ -1,7 +1,5 @@
 # Tic-Tac-Toe-using-python-
-The Python code uses `tkinter` to make a Tic Tac Toe game GUI with buttons, player clicks, and win/draw handling.
 
-# Tic Tac Toe GUI using tkinter
 
 import tkinter as tk
 from tkinter import messagebox
@@ -62,7 +60,3 @@ class TicTacToeGUI:
 
     def run(self):
         self.window.mainloop()
-
-# Create an instance of the TicTacToeGUI class and run the GUI
-tictactoe_gui = TicTacToeGUI()
-tictactoe_gui.run()
