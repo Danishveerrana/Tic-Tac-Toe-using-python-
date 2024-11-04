@@ -7,7 +7,6 @@ class TicTacToeGUI:
         self.window.title("Tic Tac Toe")
         self.current_player = "X"
         self.buttons = []
-
         for i in range(3):
             for j in range(3):
                 button = tk.Button(self.window, text="", font=('normal', 20), width=8, height=4,
